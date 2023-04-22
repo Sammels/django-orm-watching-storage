@@ -21,6 +21,12 @@ class Visit(models.Model):
     leaved_at = models.DateTimeField(null=True)
 
     @property
+    def is_visit_long(self, minutes=60):
+        leaved_at = localtime(self.leaved_at) if self.leaved_at else localtime()
+        delta = leaved_at - localtime(self.entered_at)
+        return delta.seconds > minutes * 60
+
+    @property
     def get_duration(self):
         leaved_at = localtime(self.leaved_at) if self.leaved_at else localtime()
         delta = leaved_at - localtime(self.entered_at)

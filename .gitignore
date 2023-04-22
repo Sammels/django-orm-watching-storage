@@ -17,3 +17,6 @@ datacenter/migrations/__pycache__/__init__.cpython-311.pyc
 project/__pycache__/settings.cpython-311.pyc
 project/__pycache__/urls.cpython-311.pyc
 datacenter/__pycache__/format_utils.cpython-311.pyc
+.replit
+poetry.lock
+pyproject.toml
