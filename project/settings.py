@@ -19,7 +19,8 @@ INSTALLED_APPS = ['datacenter']
 
 SECRET_KEY = 'REPLACE_ME'
 
-DEBUG = True
+
+DEBUG = os.environ['DEBUG_SETTING']
 
 ROOT_URLCONF = 'project.urls'
 
