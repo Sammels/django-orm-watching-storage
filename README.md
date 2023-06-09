@@ -17,7 +17,16 @@
 
 - Рекомендуется использовать [virtualenv/venv](https://docs.python.org/3/library/venv.html) для изоляции проекта.
 
-- Создайте в корне проекта файл **.env** с переменными среды для подключения к базе данных, укажите секретный ключ и режим дебага, пример заполнения содержится в файле **.env.example**
+- Создайте в корне проекта файл **.env** с переменными среды для подключения к базе данных, укажите секретный ключ и режим дебага, пример заполнения 
+```
+DEBUG_SETTING=False
+SECRET_KEY="Secret Key for django"
+DB_HOST="Database Host name"
+DB_PORT="Database connected port"
+DB_NAME="Database name"
+DB_USER="Database user"
+DB_PASSWORD="Database password"
+```
 
 ## Запуск
 
