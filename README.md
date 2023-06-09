@@ -19,7 +19,6 @@
 
 - Создайте в корне проекта файл **.env** с переменными среды для подключения к базе данных, укажите секретный ключ и режим дебага, пример заполнения 
 ```
-DEBUG_SETTING=False
 SECRET_KEY="Secret Key for django"
 DB_HOST="Database Host name"
 DB_PORT="Database connected port"
