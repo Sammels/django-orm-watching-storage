@@ -20,11 +20,14 @@
 - Создайте в корне проекта файл **.env** с переменными среды для подключения к базе данных, укажите секретный ключ и режим дебага, пример заполнения 
 ```
 SECRET_KEY="Secret Key for django"
+DB_ENGINE='Database engine'
+DEBUG=False
 DB_HOST="Database Host name"
 DB_PORT="Database connected port"
 DB_NAME="Database name"
 DB_USER="Database user"
 DB_PASSWORD="Database password"
+ALLOWED_HOSTS="127.0.0.1", "localhost"
 ```
 
 ## Запуск
