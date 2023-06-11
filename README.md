@@ -27,7 +27,7 @@ DB_PORT="Database connected port"
 DB_NAME="Database name"
 DB_USER="Database user"
 DB_PASSWORD="Database password"
-ALLOWED_HOSTS="127.0.0.1", "localhost"
+ALLOWED_HOSTS="127.0.0.1, localhost"
 ```
 
 ## Запуск
